@@ -1,0 +1,38 @@
+body{
+    height: 97vh;
+    width: 99vw;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background-color : white;
+}
+.container{
+    display: flex;
+    background-color : hsl(0, 29%, 97%);
+    border-radius: 25px;
+    width: 600px;
+    height: 400px;
+   /* box-shadow :  hsl(252, 100%, 67%);*/
+}
+.sample{
+    height: 400px;
+    width: 300px;
+    background-color:  hsl(241, 81%, 54%);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.test{
+    padding: 2rem;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.font{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.mb{
+    margin-bottom: 2rem;
+}
